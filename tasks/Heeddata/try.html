@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>try process</title>
+</head>
+
+
+<body>
+    <form>
+        <label>Phone No:</label>
+        <input type="text" required pattern="[6-9][0-9]{9}" placeholder="10 digti number" /><br><br>
+        <input type="submit" value="ok" />
+    </form>
+
+    <address>prostack,<br>
+        #96,marathalli,<br>
+        benglore</address>
+    <hr>
+
+    <audio controls>
+        <source src="html.mp3" type="audio/mpeg">
+    </audio>
+
+    <video width="320" height="240" controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+    <figure>
+        <img src="http://www.greetlabs.com/images/logo.png" />
+        <caption>greetlabs rip</caption>
+    </figure>
+    <canvas id="myCanvas">
+        Your browser does not support the canvas tag.
+    </canvas>
+
+    <script>
+        let canvas = document.getElementById("myCanvas");
+        let ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#FF0000";
+        ctx.fillRect(0, 0, 80, 80);
+    </script>
+</body>
+
+</html>

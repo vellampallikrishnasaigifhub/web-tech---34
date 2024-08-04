@@ -1,0 +1,29 @@
+a {
+    background-color: cyan;
+    color: antiquewhite;
+    display: inline-block;
+    font-size: 12px;
+    padding: 10px;
+}
+
+div {
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 15px;
+    color: bisque;
+    background-image: conic-gradient(red, yellow, blue, black);
+    background-repeat: no-repeat;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+body {
+
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGIlspoOt5YI66-3Zxuk-QEYMpvHzSp3NRKw&s');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+h2{
+    
+}
